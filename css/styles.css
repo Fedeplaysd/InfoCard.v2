@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: transparent;
 }
 .container {
   display: flex;
@@ -61,7 +60,7 @@
 .derechos {
   margin-top: 25px;
   text-align: center;
-  font-size: 23px;
+  font-size: 32px;
   color: #000000;
   text-shadow: 3px 2px 3px rgb(150, 184, 253);
 }
