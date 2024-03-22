@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-image: url(../img/pexels-rostislav-uzunov-5011647.jpg);
+  background-repeat: no-repeat;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000000;
+  border-radius: 15%;
+  box-shadow: 3px 2px 3px rgb(64, 82, 119);
+  padding: 30px;
+  gap: 20px;
+  margin-bottom: 15px;
+  background-image: url(../img/pexels-anni-roenkae-5278747.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+.nameClient{
+  text-align: center;
+  padding: 12px;
+  border-bottom: 3px solid #000000;
+  background-color: transparent;
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: #000000;
+  text-shadow: 3px 2px 3px rgb(64, 82, 119);
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards button {
+  padding: 8px;
+  border: 2px solid #031722;
+  border-radius: 15%;
+  font-size: 80px;
+  cursor: pointer;
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #040D12;
+  text-shadow: 3px 2px 3px rgb(64, 82, 119);
+  box-shadow: 1px 1.75px 1.75px 0.75px  rgb(64, 82, 119);
+  background-color: rgb(103, 103, 126);
+}
+.derechos {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 23px;
+  color: #000000;
+  text-shadow: 3px 2px 3px rgb(150, 184, 253);
+}
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 10px;
+  }
+
+  .box {
+    padding: 20px;
+  }
+
+  .nameClient {
+    font-size: 24px;
+  }
+
+  .cards button {
+    font-size: 80px;
+  }
+}
